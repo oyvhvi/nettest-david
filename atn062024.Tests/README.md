@@ -1,0 +1,1 @@
+Make sure to have docker running because this uses testcontainers.
