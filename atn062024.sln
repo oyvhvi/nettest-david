@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "atn062024", "atn062024\atn0
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedResources", "SharedResources\SharedResources.shproj", "{1BE124C6-91E7-4045-86EA-8DAE60552E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atn062024.Tests", "atn062024.Tests\atn062024.Tests.csproj", "{943350E8-1728-4E54-BA52-CE8B07494D59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "atn062024.Tests", "atn062024.Tests\atn062024.Tests.csproj", "{943350E8-1728-4E54-BA52-CE8B07494D59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C292D92B-D7CF-48CE-A1C2-AC48F5E54F15}"
+	ProjectSection(SolutionItems) = preProject
+		atn062024.Tests\README.md = atn062024.Tests\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

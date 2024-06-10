@@ -20,7 +20,8 @@ builder.Services.AddSwaggerGen();
 await using WebApplication app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// enable swagger on prod for demo purposes
+// if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
